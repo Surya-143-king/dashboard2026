@@ -1,4 +1,4 @@
-import { Users, LayoutDashboard } from "lucide-react";
+import { LayoutDashboard } from "lucide-react";
 import { useLocation } from "wouter";
 import vegaLogo from "@assets/generated_images/Vega_organization_professional_logo_ade0e9ad.png";
 import {
@@ -19,11 +19,6 @@ const menuItems = [
     title: "Dashboard",
     url: "/",
     icon: LayoutDashboard,
-  },
-  {
-    title: "Users",
-    url: "/",
-    icon: Users,
   },
 ];
 
