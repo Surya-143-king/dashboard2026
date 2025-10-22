@@ -91,8 +91,8 @@ export default function UserProfile() {
             >
               <ArrowLeft className="w-5 h-5" />
             </Button>
-            <div className="border-2 border-foreground px-4 py-2 text-sm font-bold tracking-wider">
-              LOGO
+            <div className="flex items-center justify-center w-12 h-12 rounded-lg bg-gradient-to-br from-primary to-primary/80 text-primary-foreground text-xl font-bold shadow-lg">
+              SR
             </div>
           </div>
           <div className="flex items-center gap-4">
@@ -118,8 +118,8 @@ export default function UserProfile() {
       <div className="container mx-auto px-6 py-8">
         <div className="bg-card rounded-lg border border-card-border p-8 mb-6">
           <div className="flex flex-col items-center text-center mb-8">
-            <Avatar className="w-32 h-32 mb-4 border-4 border-primary">
-              <AvatarFallback className="bg-accent text-primary text-3xl font-semibold">
+            <Avatar className="w-32 h-32 mb-4 border-4 border-primary shadow-xl">
+              <AvatarFallback className="bg-gradient-to-br from-primary/20 to-accent text-primary text-3xl font-semibold">
                 {getInitials()}
               </AvatarFallback>
             </Avatar>
@@ -149,32 +149,32 @@ export default function UserProfile() {
             <TabsList className="w-full justify-start border-b rounded-none h-auto p-0 bg-transparent">
               <TabsTrigger
                 value="basic"
-                className="relative rounded-none border-b-2 border-transparent data-[state=active]:border-primary data-[state=active]:bg-transparent px-6 py-3"
+                className="relative rounded-none border-b-2 border-transparent data-[state=active]:border-primary data-[state=active]:bg-transparent data-[state=active]:text-primary px-6 py-3 transition-colors"
                 data-testid="tab-basic-info"
               >
                 Basic Info
                 {activeTab === "basic" && (
-                  <span className="absolute bottom-0 left-0 right-0 h-0.5 bg-primary" />
+                  <span className="absolute bottom-0 left-0 right-0 h-0.5 bg-primary rounded-t" />
                 )}
               </TabsTrigger>
               <TabsTrigger
                 value="education"
-                className="relative rounded-none border-b-2 border-transparent data-[state=active]:border-primary data-[state=active]:bg-transparent px-6 py-3"
+                className="relative rounded-none border-b-2 border-transparent data-[state=active]:border-primary data-[state=active]:bg-transparent data-[state=active]:text-primary px-6 py-3 transition-colors"
                 data-testid="tab-education"
               >
                 Education & Skills
                 {activeTab === "education" && (
-                  <span className="absolute bottom-0 left-0 right-0 h-0.5 bg-primary" />
+                  <span className="absolute bottom-0 left-0 right-0 h-0.5 bg-primary rounded-t" />
                 )}
               </TabsTrigger>
               <TabsTrigger
                 value="experience"
-                className="relative rounded-none border-b-2 border-transparent data-[state=active]:border-primary data-[state=active]:bg-transparent px-6 py-3"
+                className="relative rounded-none border-b-2 border-transparent data-[state=active]:border-primary data-[state=active]:bg-transparent data-[state=active]:text-primary px-6 py-3 transition-colors"
                 data-testid="tab-experience"
               >
                 Experience
                 {activeTab === "experience" && (
-                  <span className="absolute bottom-0 left-0 right-0 h-0.5 bg-primary" />
+                  <span className="absolute bottom-0 left-0 right-0 h-0.5 bg-primary rounded-t" />
                 )}
               </TabsTrigger>
             </TabsList>

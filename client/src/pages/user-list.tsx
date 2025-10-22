@@ -71,8 +71,8 @@ export default function UserList() {
       <div className="border-b">
         <div className="container mx-auto px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="border-2 border-foreground px-4 py-2 text-sm font-bold tracking-wider">
-              LOGO
+            <div className="flex items-center justify-center w-12 h-12 rounded-lg bg-gradient-to-br from-primary to-primary/80 text-primary-foreground text-xl font-bold shadow-lg">
+              SR
             </div>
           </div>
           <div className="flex items-center gap-4">
