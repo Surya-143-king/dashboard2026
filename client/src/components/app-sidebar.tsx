@@ -1,6 +1,6 @@
-import { Users, UserCircle, LayoutDashboard } from "lucide-react";
+import { Users, LayoutDashboard } from "lucide-react";
 import { useLocation } from "wouter";
-import pragatiLogo from "@assets/generated_images/Pragati_organization_professional_logo_f8c66b52.png";
+import vegaLogo from "@assets/generated_images/Vega_organization_professional_logo_ade0e9ad.png";
 import {
   Sidebar,
   SidebarContent,
@@ -35,12 +35,12 @@ export function AppSidebar() {
       <SidebarHeader className="p-4">
         <div className="flex items-center gap-3">
           <img
-            src={pragatiLogo}
-            alt="Pragati Logo"
+            src={vegaLogo}
+            alt="Vega Logo"
             className="w-10 h-10 rounded-md"
           />
           <div className="flex flex-col">
-            <h2 className="text-lg font-bold text-sidebar-foreground">Pragati</h2>
+            <h2 className="text-lg font-bold text-sidebar-foreground">Vega</h2>
             <p className="text-xs text-muted-foreground">User Management</p>
           </div>
         </div>
@@ -70,7 +70,7 @@ export function AppSidebar() {
       </SidebarContent>
       <SidebarFooter className="p-4">
         <div className="text-xs text-muted-foreground">
-          © 2025 Pragati Org
+          © 2025 Vega
         </div>
       </SidebarFooter>
     </Sidebar>
