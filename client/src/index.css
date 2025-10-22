@@ -16,60 +16,60 @@
 
   --background: 0 0% 100%;
 
-  --foreground: 240 10% 12%;
+  --foreground: 240 10% 10%;
 
   --border: 240 6% 88%;
 
-  --card: 240 5% 98%;
+  --card: 0 0% 100%;
 
-  --card-foreground: 240 10% 12%;
+  --card-foreground: 240 10% 10%;
 
-  --card-border: 240 6% 92%;
+  --card-border: 240 5% 90%;
 
-  --sidebar: 240 6% 96%;
+  --sidebar: 250 50% 98%;
 
-  --sidebar-foreground: 240 10% 12%;
+  --sidebar-foreground: 240 10% 10%;
 
-  --sidebar-border: 240 6% 90%;
+  --sidebar-border: 250 40% 92%;
 
-  --sidebar-primary: 217 91% 60%;
+  --sidebar-primary: 260 80% 60%;
 
   --sidebar-primary-foreground: 0 0% 100%;
 
-  --sidebar-accent: 240 8% 92%;
+  --sidebar-accent: 250 40% 94%;
 
-  --sidebar-accent-foreground: 240 10% 12%;
+  --sidebar-accent-foreground: 240 10% 10%;
 
-  --sidebar-ring: 217 91% 60%;
+  --sidebar-ring: 260 80% 60%;
 
-  --popover: 240 8% 94%;
+  --popover: 0 0% 100%;
 
-  --popover-foreground: 240 10% 12%;
+  --popover-foreground: 240 10% 10%;
 
   --popover-border: 240 6% 88%;
 
-  --primary: 217 91% 60%;
+  --primary: 260 80% 60%;
 
   --primary-foreground: 0 0% 100%;
 
-  --secondary: 240 8% 90%;
+  --secondary: 240 8% 92%;
 
-  --secondary-foreground: 240 10% 12%;
+  --secondary-foreground: 240 10% 10%;
 
-  --muted: 240 10% 93%;
+  --muted: 240 8% 94%;
 
-  --muted-foreground: 240 8% 40%;
+  --muted-foreground: 240 6% 46%;
 
-  --accent: 217 91% 95%;
+  --accent: 260 60% 96%;
 
-  --accent-foreground: 240 10% 12%;
+  --accent-foreground: 240 10% 10%;
 
-  --destructive: 0 72% 55%;
+  --destructive: 0 84% 60%;
 
   --destructive-foreground: 0 0% 100%;
 
-  --input: 240 10% 75%;
-  --ring: 217 91% 60%;
+  --input: 240 6% 75%;
+  --ring: 260 80% 60%;
   --chart-1: 217 91% 60%;
   --chart-2: 173 80% 40%;
   --chart-3: 142 76% 40%;
@@ -132,63 +132,63 @@
   --elevate-1: rgba(255,255,255, .04);
   --elevate-2: rgba(255,255,255, .09);
 
-  --background: 240 8% 12%;
+  --background: 240 8% 8%;
 
-  --foreground: 0 0% 95%;
+  --foreground: 0 0% 96%;
 
-  --border: 240 6% 24%;
+  --border: 240 6% 20%;
 
-  --card: 240 6% 16%;
+  --card: 240 6% 12%;
 
-  --card-foreground: 0 0% 95%;
+  --card-foreground: 0 0% 96%;
 
-  --card-border: 240 6% 20%;
+  --card-border: 240 6% 16%;
 
-  --sidebar: 240 5% 18%;
+  --sidebar: 250 30% 10%;
 
-  --sidebar-foreground: 0 0% 95%;
+  --sidebar-foreground: 0 0% 96%;
 
-  --sidebar-border: 240 5% 22%;
+  --sidebar-border: 250 20% 16%;
 
-  --sidebar-primary: 217 91% 60%;
+  --sidebar-primary: 260 80% 65%;
 
   --sidebar-primary-foreground: 0 0% 100%;
 
-  --sidebar-accent: 240 5% 20%;
+  --sidebar-accent: 250 20% 14%;
 
-  --sidebar-accent-foreground: 0 0% 95%;
+  --sidebar-accent-foreground: 0 0% 96%;
 
-  --sidebar-ring: 217 91% 60%;
+  --sidebar-ring: 260 80% 65%;
 
-  --popover: 240 5% 20%;
+  --popover: 240 6% 12%;
 
-  --popover-foreground: 0 0% 95%;
+  --popover-foreground: 0 0% 96%;
 
-  --popover-border: 240 5% 24%;
+  --popover-border: 240 5% 20%;
 
-  --primary: 217 91% 60%;
+  --primary: 260 80% 65%;
 
   --primary-foreground: 0 0% 100%;
 
-  --secondary: 240 6% 22%;
+  --secondary: 240 6% 18%;
 
-  --secondary-foreground: 0 0% 95%;
+  --secondary-foreground: 0 0% 96%;
 
-  --muted: 240 8% 18%;
+  --muted: 240 6% 16%;
 
-  --muted-foreground: 0 0% 70%;
+  --muted-foreground: 0 0% 68%;
 
-  --accent: 217 40% 15%;
+  --accent: 260 50% 16%;
 
-  --accent-foreground: 0 0% 95%;
+  --accent-foreground: 0 0% 96%;
 
-  --destructive: 0 72% 55%;
+  --destructive: 0 84% 60%;
 
   --destructive-foreground: 0 0% 100%;
 
   /* Used as the border around inputs. Dark mode: Should be a border that is light enough to have high contrast when rendered on a --card background. More contrast than standard --border */
-  --input: 240 6% 32%;
-  --ring: 217 91% 60%;
+  --input: 240 6% 28%;
+  --ring: 260 80% 65%;
   --chart-1: 217 91% 70%;
   --chart-2: 173 80% 60%;
   --chart-3: 142 76% 60%;
