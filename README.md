@@ -18,8 +18,6 @@
 ## Tech Stack
 
 - **Frontend:** React, TypeScript, Tailwind CSS, Framer Motion, Wouter, React Query  
-- **Backend:** Node.js, Express, TypeScript, structured routing  
-- **Build & Deployment:** Vite, esbuild, gh-pages  
 
 ---
 
@@ -38,3 +36,98 @@ UniqueLayout/
 ├─ package.json
 ├─ tsconfig.json
 └─ README.md
+
+Setup Guide (Local Development)
+Prerequisites
+Node.js >= 20
+
+npm >= 9
+
+Steps to Run Locally
+Clone the repository
+
+bash
+Copy code
+git clone https://github.com/Surya-143-king/H.git
+cd H/UniqueLayout
+Install dependencies
+
+bash
+Copy code
+npm install
+This installs both frontend and backend dependencies.
+
+Run Development Server
+
+To run backend and serve frontend through Vite:
+
+Windows:
+
+bash
+Copy code
+npx cross-env NODE_ENV=development tsx server/index.ts
+Linux / macOS:
+
+bash
+Copy code
+cross-env NODE_ENV=development tsx server/index.ts
+Backend API runs on http://localhost:5000 and the frontend will open automatically via Vite.
+
+Run Frontend Separately (Optional)
+
+bash
+Copy code
+cd client
+npm run dev
+Frontend will run on http://localhost:5173 by default.
+
+View Output in Browser
+Open http://localhost:5000 to see the full app.
+
+API requests are available under /api/* routes.
+
+If frontend runs separately via Vite, open http://localhost:5173.
+
+Build for Production
+Build the project:
+
+bash
+Copy code
+npm run build
+Start the production server:
+
+bash
+Copy code
+npm start
+The backend will serve static files from dist/public.
+
+Open in browser:
+
+http://localhost:5000
+
+Deploy to GitHub Pages
+Install gh-pages if not installed:
+
+bash
+Copy code
+npm install --save-dev gh-pages
+Deploy:
+
+bash
+Copy code
+npm run deploy
+Ensure your package.json has the "homepage" field set to your GitHub Pages URL.
+
+Notes
+If you encounter errors with cross-env or tsx, make sure they are installed:
+
+bash
+Copy code
+npm install --save-dev cross-env tsx
+For Windows users, use npx cross-env NODE_ENV=development tsx server/index.ts instead of NODE_ENV=development ....
+
+Ensure your ports (5000 for backend, 5173 for frontend) are not blocked.
+
+License
+MIT License
+
